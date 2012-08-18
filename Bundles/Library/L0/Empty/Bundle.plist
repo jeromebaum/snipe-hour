@@ -13,6 +13,10 @@
 		<dict>
 			<key>FinalTemplate</key>
 			<string>Final.jsont</string>
+			<key>OSFamily</key>
+			<string>nix</string>
+			<key>OutputTarget</key>
+			<string>sh</string>
 			<key>Template</key>
 			<string>Template.jsont</string>
 		</dict>
