@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BundleIdentifier</key>
+	<string>com.jeromebaum.y2012.bundle.L2.CheckUserExists</string>
+	<key>BundleName</key>
+	<string>Check whether the given username exists</string>
+	<key>BundleShortID</key>
+	<string>CheckUserExists</string>
+	<key>Contents</key>
+	<array>
+		<dict>
+			<key>OSFamily</key>
+			<string>nix</string>
+			<key>Template</key>
+			<string>Template.jsont</string>
+		</dict>
+	</array>
+</dict>
+</plist>

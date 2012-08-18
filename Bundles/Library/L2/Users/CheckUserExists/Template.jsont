@@ -8,30 +8,26 @@
 		<key>Before</key>
 		<string>{meta.Before|html}</string>
 		<key>BundleIdentifier</key>
-		<string>com.jeromebaum.y2012.bundle.L2.CheckUserExists</string>
+		<string>com.jeromebaum.y2012.bundle.L1.CheckHasLine</string>
 		<key>Data</key>
 		<dict>
+			<key>Expression</key>
+			<string>{data.Username|html}</string>
+			<key>FullName</key>
+			<string>/etc/passwd</string>
 			<key>NoBundle</key>
 			<dict>
 				<key>BundleIdentifier</key>
-				<string>com.jeromebaum.y2012.bundle.L0.Shell</string>
+				<string>com.jeromebaum.y2012.bundle.L0.Include</string>
 				<key>Data</key>
-				<dict>
-					<key>Command</key>
-					<string>echo NO</string>
-				</dict>
+				<string>{data.NoBundle|json}</string>
 			</dict>
-			<key>Username</key>
-			<string>jerome</string>
 			<key>YesBundle</key>
 			<dict>
 				<key>BundleIdentifier</key>
-				<string>com.jeromebaum.y2012.bundle.L0.Shell</string>
+				<string>com.jeromebaum.y2012.bundle.L0.Include</string>
 				<key>Data</key>
-				<dict>
-					<key>Command</key>
-					<string>echo YES</string>
-				</dict>
+				<string>{data.YesBundle|json}</string>
 			</dict>
 		</dict>
 		<key>OSFamily</key>
