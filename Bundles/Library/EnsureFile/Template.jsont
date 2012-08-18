@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>After</key>
+		<string>{meta.After|html}</string>
+		<key>Before</key>
+		<string>{meta.Before|html}</string>
+		<key>BundleIdentifier</key>
+		<string>com.jeromebaum.y2012.bundle.shell</string>
+		<key>Data</key>
+		<dict>
+			<key>Command</key>
+			<string>touch {data.FullName|html}</string>
+		</dict>
+		<key>OSFamily</key>
+		<string>nix</string>
+		<key>OutputTarget</key>
+		<string>sh</string>
+	</dict>
+</array>
+</plist>
