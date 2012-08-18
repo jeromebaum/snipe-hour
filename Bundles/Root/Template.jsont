@@ -4,9 +4,9 @@
 <array>
 	<dict>
 		<key>After</key>
-		<string>Start</string>
+		<string>{meta.After|html}</string>
 		<key>Before</key>
-		<string>End</string>
+		<string>{meta.Before|html}</string>
 		<key>BundleIdentifier</key>
 		<string>com.jeromebaum.y2012.bundle.EnsureFile</string>
 		<key>Data</key>
