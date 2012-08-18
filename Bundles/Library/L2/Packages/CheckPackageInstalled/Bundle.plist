@@ -7,7 +7,7 @@
 	<key>BundleName</key>
 	<string>Check whether the given package is installed</string>
 	<key>BundleShortID</key>
-	<string>CheckUserExists</string>
+	<string>CheckPackageInstalled</string>
 	<key>Contents</key>
 	<array>
 		<dict>
