@@ -8,31 +8,14 @@
 		<key>Before</key>
 		<string>{meta.Before|html}</string>
 		<key>BundleIdentifier</key>
-		<string>com.jeromebaum.y2012.bundle.L2.CheckUserExists</string>
+		<string>com.jeromebaum.y2012.bundle.L2.EnsurePackagesInstalled</string>
 		<key>Data</key>
 		<dict>
-			<key>NoBundle</key>
-			<dict>
-				<key>BundleIdentifier</key>
-				<string>com.jeromebaum.y2012.bundle.L0.Shell</string>
-				<key>Data</key>
-				<dict>
-					<key>Command</key>
-					<string>echo NO</string>
-				</dict>
-			</dict>
-			<key>Username</key>
-			<string>jerome</string>
-			<key>YesBundle</key>
-			<dict>
-				<key>BundleIdentifier</key>
-				<string>com.jeromebaum.y2012.bundle.L0.Shell</string>
-				<key>Data</key>
-				<dict>
-					<key>Command</key>
-					<string>echo YES</string>
-				</dict>
-			</dict>
+			<key>Packages</key>
+			<array>
+                <string>foo</string>
+			    <string>bar</string>
+			</array>
 		</dict>
 		<key>OSFamily</key>
 		<string>nix</string>
