@@ -14,7 +14,9 @@
 		<key>Data</key>
 		<dict>
 			<key>Text</key>
-			<string>;if {data.Test|html}; then;</string>
+			<string>
+                if {data.Test|html}; then
+            </string>
 		</dict>
 	</dict>
 	<dict>
@@ -37,7 +39,9 @@
 		<key>Data</key>
 		<dict>
 			<key>Text</key>
-			<string>;else;</string>
+			<string>
+                else
+            </string>
 		</dict>
 	</dict>
 	<dict>
@@ -60,7 +64,9 @@
 		<key>Data</key>
 		<dict>
 			<key>Text</key>
-			<string>;fi;</string>
+			<string>
+                fi
+            </string>
 		</dict>
 	</dict>
 </array>
