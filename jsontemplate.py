@@ -1094,9 +1094,11 @@ def _DoRepeatedSection(args, context, callback):
   block = args
 
   items = context.PushSection(block.section_name)
-  # TODO: if 'items' is a dictionary, allow @name and @value.
 
   if items:
+    if isinstance(items, dict):
+      items = [{'@name': k, '@value': v} for k,v in items.iteritems()]
+      context.stack[-1].context = items
     if not isinstance(items, list):
       raise EvaluationError('Expected a list; got %s' % type(items))
 
