@@ -8,7 +8,7 @@
 		<key>Before</key>
 		<string>{meta.Before|html}</string>
 		<key>BundleIdentifier</key>
-		<string>com.jeromebaum.y2012.bundle.shell</string>
+		<string>com.jeromebaum.y2012.bundle.Shell</string>
 		<key>Data</key>
 		<dict>
 			<key>Command</key>
