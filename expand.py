@@ -18,7 +18,19 @@ def plistFormatter(jsonObj):
     string = re.sub(r'</plist>', '', string)
     return string
 
-more_formatters = { 'plist': plistFormatter }
+def plistFlattener(plist):
+    """
+    Remove surrounding <dict/> tags from given plist.
+    """
+    plist = re.sub(r'(?s)^\s*<dict>', '', plist, count=1)
+    plist = re.sub(r'(?s)</dict>\s*', '', plist, count=1)
+    return plist
+
+more_formatters = {
+    'plist': plistFormatter,
+    'json': json.dumps,
+    'jsonToFlatPlist': lambda s: plistFlattener(plistFormatter(json.loads(s))),
+}
 
 def loadTemplate(filename):
     """
