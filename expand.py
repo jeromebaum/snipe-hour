@@ -5,15 +5,18 @@ import os
 import plistlib
 import sys
 import json
+import re
 
 import jsontemplate
 
-def plistFormatter(jsonString):
+def plistFormatter(jsonObj):
     """
-    Parse the given string as JSON and output as XML plist.
+    Output the given JSON object as XML plist.
     """
-    json = json.loads(jsonString)
-    return plist.writeToString(json)
+    string = plistlib.writePlistToString(jsonObj)
+    string = re.sub(r'(?s).*?<plist[^>]*>', '', string)
+    string = re.sub(r'</plist>', '', string)
+    return string
 
 more_formatters = { 'plist': plistFormatter }
 
@@ -45,14 +48,6 @@ for bPlist in bundlePlists:
     if finalName:
         finalName = os.path.join(bundleDir, finalName)
         bundles[bundleId]['FinalTemplate'] = loadTemplate(finalName)
-
-rootBundle = sys.argv[1]
-currentList = [{
-    'BundleIdentifier': rootBundle,
-    'After': 'Start',
-    'Before': 'End',
-    'Data': {},
-}]
 
 def expandBundle(bundle):
     """
@@ -103,11 +98,20 @@ def finalExpandList(lst):
         result += expandFinal(bundle)
     return result
 
-while True:
-    oldList = currentList
-    currentList = transformList(currentList)
-    if currentList == oldList:
-        break
+if __name__ == '__main__':
+    rootBundle = sys.argv[1]
+    currentList = [{
+        'BundleIdentifier': rootBundle,
+        'After': 'Start',
+        'Before': 'End',
+        'Data': {},
+    }]
 
-output = finalExpandList(currentList)
-print output
+    while True:
+        oldList = currentList
+        currentList = transformList(currentList)
+        if currentList == oldList:
+            break
+
+    output = finalExpandList(currentList)
+    print output
