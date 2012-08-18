@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    {.section data}
+    {.repeated section Packages}
+	<dict>
+		<key>After</key>
+		<string>{meta.After|html}</string>
+		<key>Before</key>
+		<string>{meta.Before|html}</string>
+		<key>BundleIdentifier</key>
+		<string>com.jeromebaum.y2012.bundle.L2.EnsurePackageInstalled</string>
+		<key>Data</key>
+		<dict>
+			<key>Package</key>
+			<string>{@|html}</string>
+		</dict>
+		<key>OSDistroFamily</key>
+		<string>redhat</string>
+		<key>OSFamily</key>
+		<string>nix</string>
+		<key>OSIdentifier</key>
+		<string>linux</string>
+		<key>OutputTarget</key>
+		<string>sh</string>
+	</dict>
+    {.end}
+    {.end}
+</array>
+</plist>
