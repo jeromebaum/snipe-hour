@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BundleIdentifier</key>
-	<string>com.jeromebaum.y2012.bundle.EnsureFile</string>
+	<string>com.jeromebaum.y2012.bundle.L1.EnsureFile</string>
 	<key>BundleName</key>
 	<string>Ensure a file exists</string>
 	<key>BundleShortID</key>
