@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>After</key>
+		<string>{meta.After|html}</string>
+		<key>Before</key>
+		<string>{meta.Before|html}</string>
+		<key>BundleIdentifier</key>
+		<string>com.jeromebaum.y2012.bundle.L2.CheckPackageInstalled</string>
+		<key>Data</key>
+		<dict>
+			<key>NoBundle</key>
+			<dict>
+				<key>BundleIdentifier</key>
+				<string>com.jeromebaum.y2012.bundle.L0.Shell</string>
+				<key>Data</key>
+				<dict>
+					<key>Command</key>
+					<string>yum install -y {data.Package|html}</string>
+				</dict>
+			</dict>
+			<key>Package</key>
+			<string>{data.Package|html}</string>
+			<key>YesBundle</key>
+			<dict>
+				<key>BundleIdentifier</key>
+				<string>com.jeromebaum.y2012.bundle.L0.Empty</string>
+				<key>Data</key>
+				<dict/>
+			</dict>
+		</dict>
+		<key>OSDistroFamily</key>
+		<string>redhat</string>
+		<key>OSFamily</key>
+		<string>nix</string>
+		<key>OSIdentifier</key>
+		<string>linux</string>
+		<key>OutputTarget</key>
+		<string>sh</string>
+	</dict>
+</array>
+</plist>
