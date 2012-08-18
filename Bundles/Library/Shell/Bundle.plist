@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BundleIdentifier</key>
+	<string>com.jeromebaum.y2012.bundle.Shell</string>
+	<key>BundleName</key>
+	<string>Run shell command</string>
+	<key>BundleShortID</key>
+	<string>Shell</string>
+	<key>Contents</key>
+	<array>
+		<dict>
+			<key>FinalTemplate</key>
+			<string>Final.jsont</string>
+			<key>OSFamily</key>
+			<string>nix</string>
+			<key>OutputTarget</key>
+			<string>sh</string>
+			<key>Template</key>
+			<string>Template.jsont</string>
+		</dict>
+	</array>
+</dict>
+</plist>
