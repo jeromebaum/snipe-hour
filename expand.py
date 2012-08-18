@@ -84,7 +84,7 @@ def finalExpandList(lst):
     """
     result = ""
     for bundle in lst:
-        result += '%s\n' % expandFinal(bundle)
+        result += expandFinal(bundle)
     return result
 
 while True:
