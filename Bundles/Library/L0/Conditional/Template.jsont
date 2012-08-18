@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>After</key>
+		<string>{meta.After|html}</string>
+		<key>Before</key>
+		<string>
+            {meta.After|html}.com.jeromebaum.y2012.bundle.L0.Conditional.1
+        </string>
+		<key>BundleIdentifier</key>
+		<string>com.jeromebaum.y2012.bundle.L0.Text</string>
+		<key>Data</key>
+		<dict>
+			<key>Text</key>
+			<string>;if {data.Test|html}; then;</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>After</key>
+		<string>{meta.After|html}.com.jeromebaum.y2012.bundle.L0.Conditional.1</string>
+		<key>Before</key>
+		<string>{meta.After|html}.com.jeromebaum.y2012.bundle.L0.Conditional.2</string>
+		<key>BundleIdentifier</key>
+		<string>{data.YesBundle.BundleIdentifier|html}</string>
+		<key>Data</key>
+		{data.YesBundle.Data|plist}
+	</dict>
+	<dict>
+		<key>After</key>
+		<string>{meta.After|html}.com.jeromebaum.y2012.bundle.L0.Conditional.2</string>
+		<key>Before</key>
+		<string>{meta.After|html}.com.jeromebaum.y2012.bundle.L0.Conditional.3</string>
+		<key>BundleIdentifier</key>
+		<string>com.jeromebaum.y2012.bundle.L0.Text</string>
+		<key>Data</key>
+		<dict>
+			<key>Text</key>
+			<string>;else;</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>After</key>
+		<string>{meta.After|html}.com.jeromebaum.y2012.bundle.L0.Conditional.3</string>
+		<key>Before</key>
+		<string>{meta.After|html}.com.jeromebaum.y2012.bundle.L0.Conditional.4</string>
+		<key>BundleIdentifier</key>
+		<string>{data.NoBundle.BundleIdentifier|html}</string>
+		<key>Data</key>
+		{data.NoBundle.Data|plist}
+	</dict>
+	<dict>
+		<key>After</key>
+		<string>{meta.After|html}.com.jeromebaum.y2012.bundle.L0.Conditional.4</string>
+		<key>Before</key>
+		<string>{meta.Before|html}</string>
+		<key>BundleIdentifier</key>
+		<string>com.jeromebaum.y2012.bundle.L0.Text</string>
+		<key>Data</key>
+		<dict>
+			<key>Text</key>
+			<string>;fi;</string>
+		</dict>
+	</dict>
+</array>
+</plist>
