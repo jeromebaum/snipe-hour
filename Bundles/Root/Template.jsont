@@ -8,11 +8,31 @@
 		<key>Before</key>
 		<string>{meta.Before|html}</string>
 		<key>BundleIdentifier</key>
-		<string>com.jeromebaum.y2012.bundle.EnsureFile</string>
+		<string>com.jeromebaum.y2012.bundle.L0.Conditional</string>
 		<key>Data</key>
 		<dict>
-			<key>FullName</key>
-			<string>foo</string>
+			<key>NoBundle</key>
+			<dict>
+				<key>BundleIdentifier</key>
+				<string>com.jeromebaum.y2012.bundle.Shell</string>
+				<key>Data</key>
+				<dict>
+					<key>Command</key>
+					<string>echo NO</string>
+				</dict>
+			</dict>
+			<key>Test</key>
+			<string>[ $? == $? ]</string>
+			<key>YesBundle</key>
+			<dict>
+				<key>BundleIdentifier</key>
+				<string>com.jeromebaum.y2012.bundle.Shell</string>
+				<key>Data</key>
+				<dict>
+					<key>Command</key>
+					<string>echo YES</string>
+				</dict>
+			</dict>
 		</dict>
 		<key>OSFamily</key>
 		<string>nix</string>
