@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BundleIdentifier</key>
-	<string>com.jeromebaum.y2012.bundle.Shell</string>
+	<string>com.jeromebaum.y2012.bundle.L0.Shell</string>
 	<key>BundleName</key>
 	<string>Run shell command</string>
 	<key>BundleShortID</key>

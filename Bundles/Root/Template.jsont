@@ -14,7 +14,7 @@
 			<key>NoBundle</key>
 			<dict>
 				<key>BundleIdentifier</key>
-				<string>com.jeromebaum.y2012.bundle.Shell</string>
+				<string>com.jeromebaum.y2012.bundle.L0.Shell</string>
 				<key>Data</key>
 				<dict>
 					<key>Command</key>
@@ -26,7 +26,7 @@
 			<key>YesBundle</key>
 			<dict>
 				<key>BundleIdentifier</key>
-				<string>com.jeromebaum.y2012.bundle.Shell</string>
+				<string>com.jeromebaum.y2012.bundle.L0.Shell</string>
 				<key>Data</key>
 				<dict>
 					<key>Command</key>
