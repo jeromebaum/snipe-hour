@@ -8,14 +8,33 @@
 		<key>Before</key>
 		<string>{meta.Before|html}</string>
 		<key>BundleIdentifier</key>
-		<string>com.jeromebaum.y2012.bundle.L2.EnsurePackagesInstalled</string>
+		<string>com.jeromebaum.y2012.bundle.L2.EnsureUsersExist</string>
 		<key>Data</key>
 		<dict>
-			<key>Packages</key>
+			<key>Usernames</key>
 			<array>
-                <string>foo</string>
-			    <string>bar</string>
+				<string>jerome</string>
+				<string>baum</string>
 			</array>
+		</dict>
+		<key>OSFamily</key>
+		<string>nix</string>
+		<key>OutputTarget</key>
+		<string>sh</string>
+	</dict>
+	<dict>
+		<key>After</key>
+		<string>{meta.After|html}</string>
+		<key>Before</key>
+		<string>{meta.Before|html}</string>
+		<key>BundleIdentifier</key>
+		<string>com.jeromebaum.y2012.bundle.L2.EnsureUserIsInGroup</string>
+		<key>Data</key>
+		<dict>
+			<key>Group</key>
+			<string>wheel</string>
+			<key>Username</key>
+			<string>jerome</string>
 		</dict>
 		<key>OSFamily</key>
 		<string>nix</string>
