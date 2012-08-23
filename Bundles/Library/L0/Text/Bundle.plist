@@ -6,8 +6,6 @@
 	<string>com.jeromebaum.y2012.bundle.L0.Text</string>
 	<key>BundleName</key>
 	<string>Output raw text</string>
-	<key>BundleShortID</key>
-	<string>Text</string>
 	<key>Contents</key>
 	<array>
 		<dict>

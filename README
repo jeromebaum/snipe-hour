@@ -1,5 +1,3 @@
 This is mostly a prototype/proof of concept right now. The code's not too neat 
 and some of the logic that would be required in practice (e.g. topo sort, 
 OutputTarget checking, etc.) isn't there yet.
-
-The OutputTarget etc. labels are also wrong in some cases.

@@ -6,19 +6,9 @@
 	<string>com.jeromebaum.y2012.bundle.L1.EnsureWheelCanSudo</string>
 	<key>BundleName</key>
 	<string>Ensure that members of the wheel group can run sudo</string>
-	<key>BundleShortID</key>
-	<string>EnsureWheelCanSudo</string>
 	<key>Contents</key>
 	<array>
 		<dict>
-			<key>OSDistroFamily</key>
-			<string>redhat</string>
-			<key>OSFamily</key>
-			<string>nix</string>
-			<key>OSIdentifier</key>
-			<string>linux</string>
-			<key>OutputTarget</key>
-			<string>sh</string>
 			<key>Template</key>
 			<string>Template.jsont</string>
 		</dict>

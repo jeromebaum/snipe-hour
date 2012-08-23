@@ -6,15 +6,9 @@
 	<string>com.jeromebaum.y2012.bundle.L1.EnsureFile</string>
 	<key>BundleName</key>
 	<string>Ensure a file exists</string>
-	<key>BundleShortID</key>
-	<string>EnsureFile</string>
 	<key>Contents</key>
 	<array>
 		<dict>
-			<key>OSFamily</key>
-			<string>nix</string>
-			<key>OutputTarget</key>
-			<string>sh</string>
 			<key>Template</key>
 			<string>Template.jsont</string>
 		</dict>

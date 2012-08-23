@@ -6,8 +6,6 @@
 	<string>com.jeromebaum.y2012.bundle.L0.Include</string>
 	<key>BundleName</key>
 	<string>Include another bundle</string>
-	<key>BundleShortID</key>
-	<string>Include</string>
 	<key>Contents</key>
 	<array>
 		<dict>

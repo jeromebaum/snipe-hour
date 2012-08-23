@@ -14,10 +14,6 @@
 			<key>Command</key>
 			<string>touch {data.FullName|html}</string>
 		</dict>
-		<key>OSFamily</key>
-		<string>nix</string>
-		<key>OutputTarget</key>
-		<string>sh</string>
 	</dict>
 </array>
 </plist>

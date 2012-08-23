@@ -14,14 +14,6 @@
 			<key>Command</key>
 			<string>gpasswd -a {data.Username|html} {data.Group|html}</string>
 		</dict>
-		<key>OSDistroFamily</key>
-		<string>redhat</string>
-		<key>OSFamily</key>
-		<string>nix</string>
-		<key>OSIdentifier</key>
-		<string>linux</string>
-		<key>OutputTarget</key>
-		<string>sh</string>
 	</dict>
 </array>
 </plist>

@@ -6,13 +6,9 @@
 	<string>com.jeromebaum.y2012.bundle.L2.CheckUserExists</string>
 	<key>BundleName</key>
 	<string>Check whether the given username exists</string>
-	<key>BundleShortID</key>
-	<string>CheckUserExists</string>
 	<key>Contents</key>
 	<array>
 		<dict>
-			<key>OSFamily</key>
-			<string>nix</string>
 			<key>Template</key>
 			<string>Template.jsont</string>
 		</dict>

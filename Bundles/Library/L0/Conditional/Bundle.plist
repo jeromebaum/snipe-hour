@@ -6,15 +6,9 @@
 	<string>com.jeromebaum.y2012.bundle.L0.Conditional</string>
 	<key>BundleName</key>
 	<string>Branch statement</string>
-	<key>BundleShortID</key>
-	<string>Conditional</string>
 	<key>Contents</key>
 	<array>
 		<dict>
-			<key>OSFamily</key>
-			<string>nix</string>
-			<key>OutputTarget</key>
-			<string>sh</string>
 			<key>Template</key>
 			<string>Template.jsont</string>
 		</dict>

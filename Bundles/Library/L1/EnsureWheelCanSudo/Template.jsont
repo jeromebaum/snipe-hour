@@ -14,10 +14,6 @@
 			<key>Command</key>
 			<string>env EDITOR='sed -ie /NOPASSWD/!{.meta-left}/%wheel/s/^#.//{.meta-right}' visudo</string>
 		</dict>
-		<key>OSFamily</key>
-		<string>nix</string>
-		<key>OutputTarget</key>
-		<string>sh</string>
 	</dict>
 </array>
 </plist>
