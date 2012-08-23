@@ -6,12 +6,7 @@
 	<string>com.jeromebaum.y2012.bundle.L2.EnsurePackagesInstalled</string>
 	<key>BundleName</key>
 	<string>Ensure that the given packages are installed</string>
-	<key>Contents</key>
-	<array>
-		<dict>
-			<key>Template</key>
-			<string>Template.jsont</string>
-		</dict>
-	</array>
+	<key>Template</key>
+	<string>Template.jsont</string>
 </dict>
 </plist>

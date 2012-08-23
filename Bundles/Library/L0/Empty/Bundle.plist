@@ -6,14 +6,9 @@
 	<string>com.jeromebaum.y2012.bundle.L0.Empty</string>
 	<key>BundleName</key>
 	<string>Do nothing</string>
-	<key>Contents</key>
-	<array>
-		<dict>
-			<key>FinalTemplate</key>
-			<string>Final.jsont</string>
-			<key>Template</key>
-			<string>Template.jsont</string>
-		</dict>
-	</array>
+	<key>FinalTemplate</key>
+	<string>Final.jsont</string>
+	<key>Template</key>
+	<string>Template.jsont</string>
 </dict>
 </plist>

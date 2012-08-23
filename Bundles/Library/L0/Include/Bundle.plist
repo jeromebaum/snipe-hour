@@ -6,12 +6,7 @@
 	<string>com.jeromebaum.y2012.bundle.L0.Include</string>
 	<key>BundleName</key>
 	<string>Include another bundle</string>
-	<key>Contents</key>
-	<array>
-		<dict>
-			<key>Template</key>
-			<string>Template.jsont</string>
-		</dict>
-	</array>
+	<key>Template</key>
+	<string>Template.jsont</string>
 </dict>
 </plist>

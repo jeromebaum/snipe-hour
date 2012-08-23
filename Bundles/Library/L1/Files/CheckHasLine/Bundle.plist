@@ -6,12 +6,7 @@
 	<string>com.jeromebaum.y2012.bundle.L1.CheckHasLine</string>
 	<key>BundleName</key>
 	<string>Check whether the file has a matching line (grep)</string>
-	<key>Contents</key>
-	<array>
-		<dict>
-			<key>Template</key>
-			<string>Template.jsont</string>
-		</dict>
-	</array>
+	<key>Template</key>
+	<string>Template.jsont</string>
 </dict>
 </plist>

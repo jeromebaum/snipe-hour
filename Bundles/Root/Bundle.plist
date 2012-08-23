@@ -6,12 +6,7 @@
 	<string>root</string>
 	<key>BundleName</key>
 	<string>Root bundle (just calls EnsureFile for testing)</string>
-	<key>Contents</key>
-	<array>
-		<dict>
-			<key>Template</key>
-			<string>Template.jsont</string>
-		</dict>
-	</array>
+	<key>Template</key>
+	<string>Template.jsont</string>
 </dict>
 </plist>

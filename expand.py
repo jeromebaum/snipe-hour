@@ -52,11 +52,11 @@ for bPlist in bundlePlists:
     bundles[bundleId] = { 'data': plist }
     bundleDir = os.path.dirname(bPlist)
     
-    templateName = plist['Contents'][0]['Template']
+    templateName = plist['Template']
     templateName = os.path.join(bundleDir, templateName)
     bundles[bundleId]['Template'] = loadTemplate(templateName)
     
-    finalName = plist['Contents'][0].get('FinalTemplate', None)
+    finalName = plist.get('FinalTemplate', None)
     if finalName:
         finalName = os.path.join(bundleDir, finalName)
         bundles[bundleId]['FinalTemplate'] = loadTemplate(finalName)

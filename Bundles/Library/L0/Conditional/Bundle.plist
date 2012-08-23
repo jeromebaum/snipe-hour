@@ -6,12 +6,7 @@
 	<string>com.jeromebaum.y2012.bundle.L0.Conditional</string>
 	<key>BundleName</key>
 	<string>Branch statement</string>
-	<key>Contents</key>
-	<array>
-		<dict>
-			<key>Template</key>
-			<string>Template.jsont</string>
-		</dict>
-	</array>
+	<key>Template</key>
+	<string>Template.jsont</string>
 </dict>
 </plist>
