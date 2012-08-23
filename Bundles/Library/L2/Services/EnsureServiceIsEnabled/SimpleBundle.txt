@@ -1,0 +1,4 @@
+name: com.jeromebaum.y2012.bundles.L2.EnsureServiceIsEnabled
+calls:
+- Shell:
+    Command: chkconfig {data.Service|html} on
